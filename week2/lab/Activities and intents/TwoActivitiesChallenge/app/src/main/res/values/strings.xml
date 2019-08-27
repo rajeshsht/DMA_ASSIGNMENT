@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Two Activities Challenge</string>
+    <string name="passage_one_heading">Social Science Passages: </string>
+    <string name="passage_one_description">These passages are from historical, geographical and political arenas.
+        \n\n Mostly, these passages are enjoyable to read and are not too dense.
+        \n\n A lot of inferential questions are asked from these passages to check your reading and comprehension abilities. Generally, the answer can be inferred by also reading the line before and after the one referred to.
+        \n\n Some of the questions are straightforward and you can spot the answers directly from the passage statements.
+        \n\n Get acquainted with these kind of passages by reading editorials and articles from newspapers like The Hindu, magazines like Competition success Review (CSR), websites of environmental journals etc.
+    </string>
+    <string name="passage_two_heading">Business and Economics Passages: </string>
+    <string name="passage_two_description"> These are based on important economic theories and business events. \n\n
+        You need to be aware of the basic language and concepts of business and economics. \n\n
+        Questions posed from these passages will be easy to answer since they are not too indirect, but the passage may appear complicated to you if you are completely unaware of business/economics terminology.
+Work on your business knowledge and economics vocabulary to enhance your understanding of these passages.\n\n
+        You are not expected to be an expert in this field but be aware of the fundamentals.\n\n
+        Enhance your knowledge with the help of newspapers like The Economic times and magazines like Business today, Business world etc.
+    </string>
+    <string name="passage_three_heading">Science-based Passages: </string>
+    <string name="passage_three_description">These passages deal with subjects that belong to sciences- biology, chemistry, medicine, technology and mathematics.\n\n
+        These passages present a lot of facts, and may appear boring.\n\n
+        Do not get confused by their technical jargon and focus on the main ideas being presented by the author of the passage.\n\n
+        Most of the time, questions asked from these type of passages are easy to understand and answer. \n\n
+        If you find such passages complex to follow, go through science-based columns of newspapers/websites of The Hindu, The Guardian, Washington post and magazines like Discover, Safari, Scientific India etc. and international science journals.
+    </string>
+</resources>
