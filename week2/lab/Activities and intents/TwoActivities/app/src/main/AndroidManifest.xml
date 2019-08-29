@@ -12,14 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SecondActivity"
+        <activity android:name="com.example.andriod.twoactivities.SecondActivity"
             android:label="@string/activity2_name"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.andriod.twoactivities.MainActivity">
             <meta-data
                 android:name="andriod.support.PARENT_ACTIVITY"
                 android:value="com.example.andriod.twoactivities.MainActivity"/>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.andriod.twoactivities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.andriod.hellotoast.MainActivity">
+    tools:context="com.example.andriod.hellotoast.MainActivity"
+    android:background="@drawable/blue_wall">
 
     <Button
         android:id="@+id/button_toast"
@@ -26,18 +27,18 @@
     <TextView
         android:id="@+id/show_count"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#07F511"
+        android:layout_weight="1"
+        android:background="@drawable/blue_wall"
         android:gravity="center"
         android:text="@string/count_initial_value"
-        android:textColor="#0625D5"
+        android:textColor="#FCFCFD"
         android:textSize="160sp"
         android:textStyle="bold" />
 
@@ -50,7 +51,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#0526DD"
+        android:background="#0528E4"
         android:onClick="countUp"
         android:text="@string/button_label_count"
         android:textColor="#F8F7FA"

@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     public static final int TEXT_REQUEST = 1;
     private TextView mReplyHeadTextView;
     private TextView mReplyTextView;
+//    public static final String KEY = "com.example.andriod.key";
+    String reply;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
         mMessageEditText = (EditText) findViewById(R.id.editText_main);
         mReplyHeadTextView = (TextView) findViewById(R.id.text_header_reply);
         mReplyTextView = (TextView) findViewById(R.id.text_message_reply);
+
+//        if (savedInstanceState != null){
+//             reply = savedInstanceState.getString(SecondActivity.EXTRA_REPLY);
+//            mReplyTextView.setText(reply);
+//        }
+
     }
 
     public void launchSecondActivity(View view) {
@@ -38,12 +46,19 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent, TEXT_REQUEST);
     }
 
+//    @Override
+//    protected void onSaveInstanceState(Bundle saveInstanceState) {
+//        super.onSaveInstanceState(saveInstanceState);
+//        saveInstanceState.putString(SecondActivity.EXTRA_REPLY, reply);
+//    }
+
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == TEXT_REQUEST){
             if (resultCode == RESULT_OK){
-                String reply = data.getStringExtra(SecondActivity.EXTRA_REPLY);
+                reply = data.getStringExtra(SecondActivity.EXTRA_REPLY);
                 mReplyHeadTextView.setVisibility(View.VISIBLE);
                 mReplyTextView.setText(reply);
                 mReplyTextView.setVisibility(View.VISIBLE);
@@ -51,4 +66,5 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
 }

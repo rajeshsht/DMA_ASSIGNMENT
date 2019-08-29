@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/blue_wall">
 
     <Button
         android:id="@+id/button_toast"
@@ -34,10 +35,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#07F511"
+        android:background="@drawable/blue_wall"
         android:gravity="center"
         android:text="@string/count_initial_value"
-        android:textColor="#0625D5"
+        android:textColor="#FCFCFD"
         android:textSize="80sp"
         android:textStyle="bold" />
 
@@ -65,7 +66,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#0528E4"
+        android:background="#0526DD"
         android:onClick="countReset"
         android:text="@string/button_label_reset"
         android:textColor="#FCFCFD"

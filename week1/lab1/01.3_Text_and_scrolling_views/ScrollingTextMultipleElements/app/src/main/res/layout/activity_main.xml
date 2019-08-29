@@ -32,7 +32,7 @@
                 android:id="@+id/article_subheading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#4DF007"
+                android:background="#0629EB"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_subtitle"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault"

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/andriod">
 
     <Button
         android:id="@+id/button_toast"
@@ -52,10 +53,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#07F511"
+        android:background="@drawable/andriod"
         android:gravity="center"
         android:text="@string/count_initial_value"
-        android:textColor="#0625D5"
+        android:textColor="#F7F8FA"
         android:textSize="80sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button_count"

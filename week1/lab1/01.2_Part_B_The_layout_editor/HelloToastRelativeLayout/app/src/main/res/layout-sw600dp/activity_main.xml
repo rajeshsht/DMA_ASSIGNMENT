@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.andriod.hellotoast.MainActivity">
+    tools:context="com.example.andriod.hellotoast.MainActivity"
+    android:background="@drawable/bokeh">
 
     <Button
         android:id="@+id/button_toast"
@@ -33,7 +34,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:background="#07F511"
+        android:background="#0007F511"
         android:gravity="center"
         android:text="@string/count_initial_value"
         android:textColor="#0625D5"
