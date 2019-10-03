@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tab Experiment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">These are the top stories:</string>
+    <string name="tab_2">Technology news you can read:</string>
+    <string name="tab_3">Cooking tips:</string>
+
+    <string name="tab_label1">Top Stories</string>
+    <string name="tab_label2">Technology News</string>
+    <string name="tab_label3">Cooking</string>
+
+    <string name="tab_11"> \u0020 \u0020 I love the idea of long-range hiking routes.
+        Typically arranged to support multi-day itineraries, these kinds
+        of routes let you go out and lose yourself on the trail (Note: not the same as getting lost).
+        My latest look into the world of long-range hiking routes had me checking out Spain’s “GR”
+        or Gran Recorrido routes. There are 13 GR routes in Spain and two of them, GR221 and GR222
+        are located on the island of Mallorca.
+        \n\n \u0020 \u0020 The GR221 is also called ‘Ruta de pedra en sec’ (Dry Stone Route) and it strings its
+        way through the dramatic Serra de Tramuntana mountain range that pretty well covers the Northern coast of
+        the island. The Tramuntanas are a UNESCO World Heritage Site for their significance as a
+        cultural landscape. Dry stone masonry, much of it centuries old, is everywhere along the
+        route: terrace walls on steep slopes, houses and barns, walls separating fields, and even
+        much of the surface of the pathway are built using a distinctive style of dry stone masonry
+        that form-fits the stones without mortar or cement between them. The entire GR221 route is
+        about 173 kilometers but chunks of it are still under development.
+        A bit less than half of the route is considered completed at the moment and there are six
+        hiker’s refuges currently open along the route.</string>
+    <string name="tab_21"> \u0020 iPhone 11 Pro Max review: The best offering from Apple at the moment
+    Apple iPhone 11 Pro Max review:
+        \n\n The biggest change in the iPhone 11 Pro series is the triple camera, which adds a new
+        ultra-wide angle mode. Here is our review on how it performs.</string>
+    <string name="tab_31"> \u0020 Cooking or cookery is the art, technology, science and craft of preparing
+        food for consumption. Cooking techniques and ingredients vary widely across the world, from
+        grilling food over an open fire to using electric stoves, to baking in various types of ovens,
+        reflecting unique environmental, economic, and cultural traditions and trends. Types of cooking
+        also depend on the skill levels and training of cooks. Cooking is done both by people in their
+        own dwellings and by professional cooks and chefs in restaurants and other food establishments.
+        Cooking can also occur through chemical reactions without the presence of heat, such as in ceviche,
+        a traditional South American dish where fish is cooked with the acids in lemon or lime juice.\n\n
+        Preparing food with heat or fire is an activity unique to humans. It may have started around 2
+        million years ago, though archaeological evidence for it reaches no more than 1 million years ago</string>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tab31"
+    tools:context=".TabFragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_tab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorYellow"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:text="@string/tab_3"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_tab3">
+        <TextView
+            android:id="@+id/fragment_tab1.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_31"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/fragment_tab3"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </ScrollView>
+
+</RelativeLayout>
